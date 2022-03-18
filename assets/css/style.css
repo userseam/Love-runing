@@ -3,7 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-    border: 0;
+    border: none;
     
 
 }
@@ -67,3 +67,12 @@ h1, h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
+
+#background-picture 
+{
+
+    height: 600px;
+    width: 100%;
+    background: url('../images/hero-image2.webp') no-repeat center center ; 
+
+}
