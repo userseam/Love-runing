@@ -74,5 +74,26 @@ h1, h2 {
     height: 600px;
     width: 100%;
     background: url('../images/hero-image2.webp') no-repeat center center ; 
+    animation-name: background-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 
+}
+
+#background-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    
+  
+}
+
+@keyframes background-zoom {
+    from{
+        transform: scale(1);
+
+    }
+    to{
+      transform: scale(1.1);
+    }
 }
